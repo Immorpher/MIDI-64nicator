@@ -1,0 +1,158 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="2002263636" file="D:\Immorpher\Software\MIDI 64nicator\MIDI64nicator.prj" location="D:\Immorpher\Software\MIDI 64nicator" name="MIDI64nicator" preferred-package-location="D:\Immorpher\Software\MIDI 64nicator\MIDI64nicator\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>MIDI64nicator</param.appname>
+    <param.icon>${PROJECT_ROOT}\MIDI64nicator_resources\icon.ico</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\MIDI64nicator_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\MIDI64nicator_resources\icon_32.png</file>
+      <file>${PROJECT_ROOT}\MIDI64nicator_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\MIDI64nicator_resources\icon_16.png</file>
+    </param.icons>
+    <param.version>1.2</param.version>
+    <param.authnamewatermark>Immorpher</param.authnamewatermark>
+    <param.email>immorpher@gmail.com</param.email>
+    <param.company>Doom 64</param.company>
+    <param.summary>This is a tool to format midis for Doom 64 Ports, particularly Doom 64 EX, but the midis will also work in the Doom 64 Remaster and others.</param.summary>
+    <param.description>Conversion Coding: Immorpher (https://www.youtube.com/c/Immorpher)
+D64 MIDI Decoding: Impboy, Anomalous Horse
+MIDI In/Out: Ken Schutte (https://kenschutte.com/midi)
+
+Doom 64 Discord: https://discord.gg/Ktxz8nz</param.description>
+    <param.screenshot>${PROJECT_ROOT}\Midi64 logo\Matlab Splash.png</param.screenshot>
+    <param.guid />
+    <param.installpath.string>\Doom 64\MIDI64nicator\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo>${PROJECT_ROOT}\Midi64 logo\Matlab Logo.png</param.logo>
+    <param.install.notes>First, you will need to compose a midi using the Doom 64 soundfont which can be generated with Doom 64 EX, or found in Doom 64 Retribution, DZDoom, and the Doom 64 Remaster (DLS format) program folders. Once your midi is ready, run MIDI 64nicator. The necessary processing options will be checked by default, and click on "Convert" to load your midi. Find and select your midi, the conversion process will happen automatically. When the process is over, it will open a dialog to save the file. That file should now be ready to go in your favorite Doom 64 port!
+
+This applies to midi playback on Doom 64 EX. Tracks with very short note and controller events can have tracks which eventually go out of sync. Perhaps the resolution of the midi is too high. If you experience this, try using longer notes or have controller events with more space between them.
+
+Send any midis where the conversion does not work or stalls during the conversion process to immorpher@gmail.com. Some of the optional processing options may help.</param.install.notes>
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\MIDI64nicator\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\MIDI64nicator\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\MIDI64nicator\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\MIDI64nicator</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text />
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+      <param.help.text />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\midi64nicator_App.mlapp</file>
+    </fileset.main>
+    <fileset.resources />
+    <fileset.package>
+      <file>${PROJECT_ROOT}\00 Read Me.txt</file>
+    </fileset.package>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\d64convert.m</file>
+      <file>${PROJECT_ROOT}\readmidi.m</file>
+      <file>${PROJECT_ROOT}\writemidi.m</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\MIDI64nicator\for_testing" name="splash.png" optional="false">D:\Immorpher\Software\MIDI 64nicator\MIDI64nicator\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\MIDI64nicator\for_testing" name="MIDI64nicator.exe" optional="false">D:\Immorpher\Software\MIDI 64nicator\MIDI64nicator\for_testing\MIDI64nicator.exe</file>
+      <file location="${PROJECT_ROOT}\MIDI64nicator\for_testing" name="readme.txt" optional="true">D:\Immorpher\Software\MIDI 64nicator\MIDI64nicator\for_testing\readme.txt</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>D:\Program Files\MATLAB\R2018a</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabcoder" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="polyspacebugfinder" />
+      </toolboxes>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <polyspacebugfinder>
+          <enabled>true</enabled>
+        </polyspacebugfinder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
