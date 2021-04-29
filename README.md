@@ -30,12 +30,10 @@ If you want to edit the original Doom 64 midis, use a program like Aria Maestosa
 This applies to midi playback on Doom 64 EX. Tracks with very short note and controller events can have tracks which eventually go out of sync. Perhaps the resolution of the midi is too high. If you experience this, try using longer notes or have controller events with more space between them.
 
 ## Helpful Software
-Midi Composition:
-Aria Maestosa - http://ariamaestosa.sourceforge.net/
-
-Sekaiju - https://openmidiproject.osdn.jp/index_en.html
-
-SynthFont - http://www.synthfont.com/
+Midi Composition:<br/>
+Aria Maestosa - http://ariamaestosa.sourceforge.net/<br/>
+Sekaiju - https://openmidiproject.osdn.jp/index_en.html<br/>
+SynthFont - http://www.synthfont.com/<br/>
 
 Soundfont Handling:
 Polyphone - https://www.polyphone-soundfonts.com/
