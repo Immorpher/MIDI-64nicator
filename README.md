@@ -32,7 +32,9 @@ This applies to midi playback on Doom 64 EX. Tracks with very short note and con
 ## Helpful Software
 Midi Composition:
 Aria Maestosa - http://ariamaestosa.sourceforge.net/
+
 Sekaiju - https://openmidiproject.osdn.jp/index_en.html
+
 SynthFont - http://www.synthfont.com/
 
 Soundfont Handling:
