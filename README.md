@@ -35,16 +35,16 @@ Aria Maestosa - http://ariamaestosa.sourceforge.net/<br/>
 Sekaiju - https://openmidiproject.osdn.jp/index_en.html<br/>
 SynthFont - http://www.synthfont.com/<br/>
 
-Soundfont Handling:
-Polyphone - https://www.polyphone-soundfonts.com/
-Virtual MIDI Synth - https://coolsoft.altervista.org/en/virtualmidisynth
+Soundfont Handling:<br/>
+Polyphone - https://www.polyphone-soundfonts.com/<br/>
+Virtual MIDI Synth - https://coolsoft.altervista.org/en/virtualmidisynth<br/>
 
-MIDI Decoding:
-Ken Schutte's MATLAB Scripts - https://kenschutte.com/midi
-MIDIopsy - https://jeffbourdier.github.io/midiopsy/
+MIDI Decoding:<br/>
+Ken Schutte's MATLAB Scripts - https://kenschutte.com/midi<br/>
+MIDIopsy - https://jeffbourdier.github.io/midiopsy/<br/>
 
-## Credits
-Conversion Coding: Immorpher (https://www.youtube.com/c/Immorpher)
-D64 MIDI Decoding: Impboy, Anomalous Horse
-MIDI In/Out: Ken Schutte (https://kenschutte.com/midi)
+## Credits<br/>
+Conversion Coding: Immorpher (https://www.youtube.com/c/Immorpher)<br/>
+D64 MIDI Decoding: Impboy, Anomalous Horse<br/>
+MIDI In/Out: Ken Schutte (https://kenschutte.com/midi)<br/>
 Doom 64 Discord: https://discord.gg/Ktxz8nz
