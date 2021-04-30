@@ -2,7 +2,7 @@
 A tool to automatically format MIDIs for Doom 64 EX which are also compatible with ports such as Doom 64 Remaster, Retribution, and DZDoom.
 
 ## Installation
-The program runs on Windows 64 and is programmed in MATLAB using its app designer. Run the MIDI 64nicator executable in this directory. When running the executable it will require a 700 mb download, an unfortunate part of MATLAB compiled programs. After installation it can be found in the Start Menu or via the Search Bar as "MIDI64nicator".
+The program runs on 64-bit Windows 10 and is programmed in MATLAB using its app designer. Run the MIDI 64nicator executable in this directory. When running the executable it will require a 700 mb download, an unfortunate part of MATLAB compiled programs. After installation it can be found in the Start Menu or via the Search Bar as "MIDI64nicator".
 
 ## Instructions
 First, you will need to compose a midi using the Doom 64 soundfont which can be generated with Doom 64 EX, or found in Doom 64 Retribution, DZDoom, and the Doom 64 Remaster (DLS format) program folders. Once your midi is ready, run MIDI 64nicator. The necessary processing options will be checked by default, and click on "Convert" to load your midi. Find and select your midi, the conversion process will happen automatically. When the process is over, it will open a dialog to save the file. That file should now be ready to go in your favorite Doom 64 port! Some of the optional processing options may help with compatibility.
