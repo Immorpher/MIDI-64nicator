@@ -108,7 +108,7 @@ for i=1:trackdim % dig into each track
             eventcell = struct2cell(trackcell(j)); % Get current event into cell
 
             % Swap note offs into note ons with 0 velocity
-            if cell2mat(eventcell(4)) == 1 || cell2mat(eventcell(4)) == 2 || cell2mat(eventcell(4)) == 3 || cell2mat(eventcell(4)) == 4 % Check if info event is defined then delete it
+            if cell2mat(eventcell(4)) == 1 || cell2mat(eventcell(4)) == 2 || cell2mat(eventcell(4)) == 3 || cell2mat(eventcell(4)) == 4 || cell2mat(eventcell(4)) == 88 || cell2mat(eventcell(4)) == 89 % Check if info event is defined then delete it
                 eventdim = eventdim - 1; % new event dimension size due to deletion
                 trackcell(j) = []; % delete cell
 
