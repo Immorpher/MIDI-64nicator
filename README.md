@@ -12,7 +12,7 @@ Swap Note Offs - Doom 64 EX does not properly execute note off events (128 to 14
 
 Insert Loop Times - Doom 64 has a special event (127) which determines on how the music loops, without this the tracks won't play properly. This option will strip any existing loops for each track (if needed) and will these events at the beginning and end of tracks.
 
-Strip Info Events - Extra info events (1 to 4) will cause tracks not to play in Doom 64 EX. This option will remove them.
+Strip Info Events - Extra info events (1 to 4, 88, and 89) will cause tracks not to play in Doom 64 EX. This option will remove them.
 
 Zero Run Mode - Midi events have two running modes, 0 and 1. Events with mode 1 wont be recognized in Doom 64 EX, thus this option will change them to 0.
 
